@@ -1,0 +1,23 @@
+{
+  "name": "b1-docuport-automation-tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "npx playwright test",
+    "test:file": "npx playwright test --grep login-logout.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.14.0",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9"
+  }
+}
